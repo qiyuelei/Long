@@ -19,6 +19,8 @@ bool Particle::init(){
     }
 }
 
+
+
 void Particle::ParticleExplosion(CCPoint location){
     m_emitter = CCParticleExplosion::create();
     m_emitter->retain();
